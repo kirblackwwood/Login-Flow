@@ -8,7 +8,7 @@ new WebpackDevServer(webpack(config), {
   inline: false,
   historyApiFallback: true,
   quiet: true
-}).listen(0000, 'localhost', function (error, result) {
+}).listen(8080, 'localhost', function (error, result) {
   if (error) {
     console.log(error)
   }
