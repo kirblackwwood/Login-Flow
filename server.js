@@ -8,10 +8,10 @@ new WebpackDevServer(webpack(config), {
   inline: false,
   historyApiFallback: true,
   quiet: true
-}).listen(3000, 'localhost', function (error, result) {
+}).listen(0000, 'localhost', function (error, result) {
   if (error) {
     console.log(error)
   }
 
-  console.log('Listening at http://localhost:3000!')
+  console.log('Listening at 0.0.0.0:8080')
 })
