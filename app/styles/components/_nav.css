@@ -8,7 +8,7 @@
   padding: 1em;
   display: flex;
   align-items: center;
-  background-color: #fff;
+  background-color: #7957AD;
   z-index: 1;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .btn--nav + .btn--nav {
-  margin-left: 1em;
+  margin-right: 1em;
 }
 
 @media screen and (max-width: 400px) {

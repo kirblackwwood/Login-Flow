@@ -22,9 +22,9 @@ import {
 
 /**
  * Effect to handle authorization
- * @param  {string} username               The username of the user
- * @param  {string} password               The password of the user
- * @param  {object} options                Options
+ * @param  {string} username
+ * @param  {string} password
+ * @param  {object} options
  * @param  {boolean} options.isRegistering Is this a register request?
  */
 export function * authorize ({username, password, isRegistering}) {
@@ -124,10 +124,7 @@ export function * logoutFlow () {
   }
 }
 
-/**
- * Register saga
- * Very similar to log in saga!
- */
+
 export function * registerFlow () {
   while (true) {
     // We always listen to `REGISTER_REQUEST` actions

@@ -4,7 +4,7 @@ import * as constants from '../app/actions/constants'
 import * as actions from '../app/actions'
 import {logoutFlow, registerFlow, loginFlow, authorize, logout} from '../app/sagas'
 
-const user = {username: 'juan', password: 'password'}
+const user = {username: 'rick', password: 'password'}
 const data = {data: user}
 const blankForm = {username: '', password: ''}
 const raceObject = {

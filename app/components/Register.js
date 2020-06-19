@@ -21,7 +21,7 @@ class Register extends Component {
           <div className='form-page__form-header'>
             <h2 className='form-page__form-heading'>Register</h2>
           </div>
-          <Form data={formState} dispatch={dispatch} history={this.props.history} onSubmit={this._register} btnText={'Register'} error={error} currentlySending={currentlySending} />
+          <Form data={formState} dispatch={dispatch} history={this.props.history} onSubmit={this._register} btnText={'Зарегистрироваться'} error={error} currentlySending={currentlySending} />
         </div>
       </div>
     )

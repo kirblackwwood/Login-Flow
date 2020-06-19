@@ -20,12 +20,12 @@ const server = {
   init () {
     if (localStorage.users === undefined || !localStorage.encrypted) {
       // Set default user
-      const juan = 'juan'
-      const juanSalt = genSalt(juan)
-      const juanPass = hashSync('password', juanSalt)
+      const rick = 'rick'
+      const rickSalt = genSalt(rick)
+      const rickPass = hashSync('1234', rickSalt)
 
       users = {
-        [juan]: hashSync(juanPass, salt)
+        [rick]: hashSync(rickPass, salt)
       }
 
       localStorage.users = JSON.stringify(users)

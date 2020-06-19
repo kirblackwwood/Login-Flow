@@ -3,7 +3,7 @@ import React from 'react'
 function LoadingIndicator () {
   return (
     <div>
-      Loading
+      Загрузка
       <div className='sk-fading-circle'>
         <div className='sk-circle1 sk-circle' />
         <div className='sk-circle2 sk-circle' />

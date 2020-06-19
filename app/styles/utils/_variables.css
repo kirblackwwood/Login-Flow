@@ -4,11 +4,11 @@ $text-font-stack: 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial'
 $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace;
 $serif-font-stack: Georgia, Times, 'Times New Roman', serif;
 
-$brand-color: #6CC0E5;
-$dark-brand-color: #41ADDD;
+$brand-color: #0f966c;
+$dark-brand-color: #ffffff;
 $error-color: #FB4F4F;
 
-$background-color: #FAFAFA;
+$background-color: #0EE8D4;
 $very-light-grey: #EDEDED;
 $light-grey: #CCC;
 $mid-grey: #999;

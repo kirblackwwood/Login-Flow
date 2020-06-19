@@ -5,17 +5,17 @@ import {hashSync} from 'bcryptjs'
 import genSalt from '../../app/auth/salt'
 
 test('returns true on correct login', t => {
-  const salt = genSalt('juan')
+  const salt = genSalt('rick')
   const hash = hashSync('password', salt)
 
-  return auth.login('juan', hash)
+  return auth.login('rick', hash)
     .then(response => {
       t.true(response)
     })
 })
 
 test('returns error on wrong password', t => {
-  return t.throws(auth.login('juan', 'wrong'), 'Wrong password')
+  return t.throws(auth.login('rick', 'wrong'), 'Wrong password')
 })
 
 test('returns error on inexistent user', t => {
@@ -23,10 +23,10 @@ test('returns error on inexistent user', t => {
 })
 
 test('stays logged in until log out', t => {
-  const salt = genSalt('juan')
+  const salt = genSalt('rick')
   const hash = hashSync('password', salt)
 
-  return auth.login('juan', hash)
+  return auth.login('rick', hash)
     .then(() => {
       t.true(auth.loggedIn())
       auth.logout(() => {

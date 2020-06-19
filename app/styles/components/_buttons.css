@@ -4,15 +4,16 @@
   padding: 0.5em 1.5em;
   color: '#6CC0E5';
   border: 1px solid $brand-color;
-  border-radius: 3px;
+  border-radius: 30px;
   text-decoration: none;
   user-select: none;
   display: inline-block;
+  background-color: $brand-color;
 }
 
 .btn:hover {
-  color: white;
-  background-color: $brand-color;
+  color: black;
+  background-color: #16dbd5;
 }
 
 .btn + .btn {

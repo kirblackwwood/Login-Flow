@@ -70,7 +70,7 @@
 }
 
 .js-form__err-animation {
-  animation: shake 150ms ease-in-out;
+  animation: shake 250ms ease-in-out;
 }
 
 .form__error-wrapper {

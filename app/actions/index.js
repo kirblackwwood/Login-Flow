@@ -1,8 +1,3 @@
-/*
- * Actions describe changes of state in your application
- */
-
-// We import constants to name our actions' type
 import {
   CHANGE_FORM,
   SET_AUTH,

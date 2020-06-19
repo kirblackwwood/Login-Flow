@@ -21,7 +21,7 @@ class Login extends Component {
           <div className='form-page__form-header'>
             <h2 className='form-page__form-heading'>Login</h2>
           </div>
-          <Form data={formState} dispatch={dispatch} history={this.props.history} onSubmit={this._login} btnText={'Login'} error={error} currentlySending={currentlySending} />
+          <Form data={formState} dispatch={dispatch} history={this.props.history} onSubmit={this._login} btnText={'Войти'} error={error} currentlySending={currentlySending} />
         </div>
       </div>
     )
@@ -38,12 +38,10 @@ Login.propTypes = {
   dispatch: React.PropTypes.func
 }
 
-// Which props do we want to inject, given the global state?
 function select (state) {
   return {
     data: state
   }
 }
 
-// Wrap the component to inject dispatch and state into it
 export default connect(select)(Login)

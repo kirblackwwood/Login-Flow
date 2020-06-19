@@ -23,7 +23,7 @@ test('reducer handles CHANGE_FORM action', reducerTest(
   app,
   stateBefore,
   changeForm({username: 'juan', password: 'password'}),
-  {...stateBefore, formState: {username: 'juan', password: 'password'}}
+  {...stateBefore, formState: {username: 'rick', password: 'password'}}
 ))
 
 test('reducer handles SET_AUTH action', reducerTest(

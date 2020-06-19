@@ -64,15 +64,14 @@ function checkAuth (nextState, replace) {
   }
 }
 
-// Mostly boilerplate, except for the routes. These are the pages you can go to,
-// which are all wrapped in the App component, which contains the navigation etc
+
 class LoginFlow extends Component {
   render () {
     return (
       <Provider store={store}>
         <Router history={browserHistory}>
           <Route component={App}>
-            <Route path='/' component={Home} />
+            <Route path='/' component={Login} />
             <Route onEnter={checkAuth}>
               <Route path='/login' component={Login} />
               <Route path='/register' component={Register} />

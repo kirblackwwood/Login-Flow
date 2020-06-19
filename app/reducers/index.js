@@ -1,7 +1,3 @@
-/*
- * The reducer takes care of state changes in our app through actions
- */
-
 import {
   CHANGE_FORM,
   SET_AUTH,

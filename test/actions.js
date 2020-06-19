@@ -12,7 +12,7 @@ import {
 } from '../app/actions'
 
 const formState = {
-  username: 'juan',
+  username: 'rick',
   password: 'password'
 }
 
