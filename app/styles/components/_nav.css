@@ -39,7 +39,8 @@
 }
 
 .btn--nav + .btn--nav {
-  margin-right: 1em;
+  display: inline;
+  margin-right: 21em;
 }
 
 @media screen and (max-width: 400px) {

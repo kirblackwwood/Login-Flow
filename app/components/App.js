@@ -5,7 +5,7 @@ import Nav from './common/Nav'
 class App extends Component {
   render () {
     return (
-      <div className='wrapper'>
+      <div style={{backgroundImage: "linear-gradient(to right, #00ff80, #6600cc)"}} className='wrapper'>
         <Nav loggedIn={this.props.data.loggedIn}
           currentlySending={this.props.data.currentlySending}
           history={this.props.history}
